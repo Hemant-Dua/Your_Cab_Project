@@ -1,0 +1,32 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+env/
+*.env
+
+# IDE & system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook checkpoints (safe to ignore)
+.ipynb_checkpoints/
+
+# Logs and junk files
+*.log
+*.tmp
+*.out
+
+# Cache and experiment tracking
+.cache/
+wandb/
+mlruns/
